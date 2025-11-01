@@ -1,26 +1,20 @@
-# 📰 NewsGuard AI
+#  News Detection
 
 Streamlit app to analyze news articles for credibility, sentiment, clickbait, and more.
-🔗 **Live App**: [https://newsguard-ai.streamlit.app/](https://newsguard-ai.streamlit.app/)
+ **Live App**: [https://newsguard-ai.streamlit.app/](https://newsguard-ai.streamlit.app/)
 
 -----
 
-## 👥 Contributors
-
-  * **Onyeka Nwokike** — Team Lead / Topic Classification — [https://github.com/Nwokike](https://github.com/Nwokike)
-  * **Stephen Ayankoso** — Fake News Detection — [https://github.com/Steve-ayan](https://github.com/Steve-ayan)
-  * **Cleiton Langa** — Clickbait Detection — [https://github.com/cleitonlanga](https://github.com/cleitonlanga)
-  * **Rivaldo** — Sentiment Analysis — [https://github.com/rivaldo56](https://github.com/rivaldo56)
 
 -----
 
-## 📘 Project Overview
+##  Project Overview
 
-**NewsGuard AI** is a modular NLP project built with Streamlit. Each team member contributed a trained model that analyzes different aspects of news articles. Incomplete modules display as “Coming Soon.”
+**News Detection** is a modular NLP project built with Streamlit. Each team member contributed a trained model that analyzes different aspects of news articles. Incomplete modules display as “Coming Soon.”
 
 -----
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 newsguard-ai/
@@ -61,16 +55,16 @@ newsguard-ai/
 
 -----
 
-## 🧠 Models
+##  Models
 
 This table shows the high-level status of each module. See the "Data Sources" section below for the specific datasets and requirements for each model.
 
 | Feature | Function | Status |
 | :--- | :--- | :---: |
-| Topic Classification | `predict_topic(text)` | ✅ Done |
-| Fake News Detection | `predict_fake(text)` | ✅ Done |
-| Sentiment Analysis | `predict_sentiment(text)` | ✅ Done |
-| Clickbait Detection | `is_clickbait(text)` | ✅ Done |
+| Topic Classification | `predict_topic(text)` |  Done |
+| Fake News Detection | `predict_fake(text)` |  Done |
+| Sentiment Analysis | `predict_sentiment(text)` |  Done |
+| Clickbait Detection | `is_clickbait(text)` |  Done |
 | Bias Detection | `detect_bias(text)` | 🚧 Coming Soon |
 | Extractive Summarizer | `summarize(text)` | 🚧 Coming Soon |
 | Emotion Detection | `get_emotion(text)` | 🚧 Coming Soon |
@@ -150,7 +144,7 @@ This is the official list of datasets for the project. Contributors working on a
 
 -----
 
-## 🧩 Contributing
+##  Contributing
 
 1.  Fork the repo and create a new feature branch:
     ```bash
@@ -161,3 +155,4 @@ This is the official list of datasets for the project. Contributors working on a
       * Your model + vectorizer $\rightarrow$ `/models`
       * Your inference script $\rightarrow$ `/model_functions`
 3.  Push your branch and open a Pull Request to `main`.
+
